@@ -18,7 +18,7 @@ thisyear = datetime.datetime.today().year
 selected_year = st.sidebar.selectbox('Year', list(reversed(range(2010, thisyear+1))))
 
 # Sidebar - ticker
-unique_ticker = ["GOOGL", "AMD", "TSLA", "NVDA", "XOM", "NFLX"]
+unique_ticker = ["GOOGL", "AMD", "TSLA", "NVDA", "XOM", "NFLX", "RBLX"]
 tickerSymbol = st.sidebar.selectbox('Ticker', unique_ticker)
 
 # Sidebar - display_chart
